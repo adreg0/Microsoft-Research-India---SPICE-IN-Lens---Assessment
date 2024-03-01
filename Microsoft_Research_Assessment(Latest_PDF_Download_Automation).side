@@ -1,0 +1,66 @@
+{
+  "id": "709fd86d-4b5e-48bb-b339-1ca1e4d22bd1",
+  "version": "2.0",
+  "name": "Microsoft_Research_Assessment",
+  "url": "https://morth.nic.in/OMs-Circular-Other-Notification",
+  "tests": [{
+    "id": "74523d3e-3ab4-4878-ba21-8aa1b2e77126",
+    "name": "Microsoft_Research_Assessment",
+    "commands": [{
+      "id": "31f6527a-a516-4de0-aa5b-487fb986c912",
+      "comment": "",
+      "command": "open",
+      "target": "https://morth.nic.in/OMs-Circular-Other-Notification",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71c8f416-e556-4bc2-8e8e-a785f0175873",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1168",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a108daa8-59b0-4253-913d-834730f3a1a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=tbody tr:nth-child(1) a",
+      "targets": [
+        ["linkText=Entrustment of several New NH-21 (Agra-Jalesar-Sikandra Rao Section), New NH-135B, New NH-135BB and New NH-552 to State Govt. of Uttar Pradesh (1.28 Mb )", "linkText"],
+        ["css=.views-row-first a", "css:finder"],
+        ["xpath=//div[@id='block-system-main']/div/div/div[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://morth.nic.in/sites/default/files/circulars_document/Entrustment-UP-.pdf')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Entrustment of several New NH-21 (Agra-Jalesar-Sikandra Rao Section), New NH-135B, New NH-135BB and New NH-552 to State Govt. of Uttar Pradesh (1.28 Mb )')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1456",
+      "windowTimeout": 2000
+    }, {
+      "id": "169bb65e-ae7a-443f-b229-613aeb510b61",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2259a411-0e36-46de-9e98-9cb21d944964",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "68d45742-6499-4b26-9f90-b22b996b1ea5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["74523d3e-3ab4-4878-ba21-8aa1b2e77126"]
+  }],
+  "urls": ["https://morth.nic.in/", "https://morth.nic.in/OMs-Circular-Other-Notification"],
+  "plugins": []
+}
